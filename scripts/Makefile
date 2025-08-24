@@ -1,5 +1,4 @@
-# Modify these paths to match your actual PETSc setup
-PETSC_DIR = /home/alexandr/Plocha/bsc_thesis/numerical_experiments/petsc
+PETSC_DIR = ../petsc
 PETSC_ARCH = arch-linux-32-opt
 
 CC = ${PETSC_DIR}/${PETSC_ARCH}/bin/mpicc
